@@ -11,9 +11,9 @@ int main(void)
     printf("Height:");
     h = get_int();
     }
-    while (h < 1 || h > 23);
+    while (h < 0 || h > 23);
 
-    printf("\n");
+
     for (i = 0; i < h; i++) {
 
         for (j = 0; j < h - i - 1; j++)
